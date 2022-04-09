@@ -482,13 +482,14 @@ a {
 
     .list-links {
         margin-top: 0vh;
-        justify-content: space-around;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .list-links__item {
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .welcome-text {
@@ -498,7 +499,7 @@ a {
     }
 
     .small-text {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .title {
