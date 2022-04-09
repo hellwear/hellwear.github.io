@@ -462,8 +462,8 @@ a {
     .header {
         flex-direction: column;
         height: 45vh;
-        padding-top: 7vh;
-        padding-bottom: 7vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
     }
 
     .inner-content {
@@ -529,7 +529,7 @@ a {
     }
 
     .toggle {
-        margin-top: 15vh;
+        margin-top: 5vh;
     }
 }
 
