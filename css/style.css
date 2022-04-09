@@ -393,7 +393,6 @@ a {
     .list-links {
         padding-left: 0;
         width: 100%;
-        flex-direction: column;
     }
 
     .list-links__item {
@@ -482,8 +481,8 @@ a {
     }
 
     .list-links {
-        flex-direction: column;
         margin-top: 0vh;
+        justify-content: space-around;
     }
 
     .list-links__item {
@@ -527,10 +526,6 @@ a {
     .footer-item {
         margin-top: 30px;
     }
-
-    .toggle {
-        margin-top: 5vh;
-    }
 }
 
 @media (max-width: 320px) {
@@ -551,10 +546,6 @@ a {
 
     .logo-text {
         font-size: 18px;
-    }
-
-    .list-links {
-        flex-direction: column;
     }
 
     .list-links__item {
