@@ -6,7 +6,7 @@
 
 :root {
     --font: #424242;
-    --bg: #0D47A1;
+    --bg: #6A66FF;
     --sub-bg: #212112;
     --block-bg: white;
 }
@@ -30,6 +30,10 @@ a {
 .container {
     padding-left: 10%;
     padding-right: 10%;
+}
+
+.pink {
+    color: #E84AC8;
 }
 
 .wrapper {
